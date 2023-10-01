@@ -5,9 +5,7 @@
   "main": "index.js",
  
   "scripts": {
-    "backend": "node server/index.js",
-    "frontend": "npm run start --prefix frontend",  
-    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
