@@ -27,7 +27,7 @@ const app = express();
 app.use(cors());
 
 app.get('/', function(req, res) {
-    res.send('Hi Handsome')
+    res.send('Hi Node Server')
 })
 
 app.post("/upload", upload.single("file"), async (req, res) => {
